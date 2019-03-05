@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Training Enquiry Form</title>
+	<style>
+	h1 {
+	color:DarkBlue;
+	font-family:"Lucida Sans Unicode", sans-serif;
+	 }
+	h2 {
+	color:steelblue;
+	font-size:16px;
+	}
+	.big-box {
+	width: 75%;
+  	height: 200px;
+  	/* left: 25%; */ /* uncomment if you want to center horizontally */
+  	/* top: 25%; */ /* uncomment if you want to center vertically */
+  	/*position: absolute;*/
+	}
+	.background-box {
+	background-color:LightGrey;
+	
+	}
+	</style>
+</head>
+
+<body>
+	<h1>Training Enquiry Form</h1>
+
+	<p>If you are interested in attending a training course or would like further information about the training we offer,
+	please complete the following form:</p>
+
+	<div class = "background-box">
+	<form id="training-enquiry-form" action = "mailto:maxijewell@gmail.com" method="post" enctype="text/plain">
+		<h2>Name</h2><input type="text" placeholder="name" required>
+		<br>
+		<br>
+		<h2>Email Address</h2><input type="text" placeholder="Email address" required>
+		<br>
+		<br>
+		<h2>Phone number (optional)</h2><input type="text">
+		<br>
+		<h2>Course you are interested in (if any):</h2>
+		
+		<label for="April">
+      
+			<input id="April" type="checkbox" name="courses">April
+
+		</label>
+ <br> 
+		<label for="MayJune">
+     
+			<input id="MayJune" type="checkbox" name="courses">May/June
+
+		</label> <br>
+		<label for="JuneJuly">
+      
+			<input id="JuneJuly" type="checkbox" name="courses">June/July
+		</label>
+ <br>   
+		<label for="JulyAug">
+
+			<input id="JulyAug" type="checkbox" name="courses">July/August
+		</label> <br>
+		<label for="SeptOct">
+
+			<input id="SeptOct" type="checkbox" name="courses">September/October
+		</label> <br>
+		<p>Course dates can be found <a href="#">here</a>
+		<br>
+		<h2>Enquiry</h2><input type="text" class="big-box" >
+		<br>
+		<button type="submit">Submit Form</button>
+	</form>
+	</div>
+
+</body>
+
+</html>

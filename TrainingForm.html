@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Training Enquiry Form</title>
+	<style>
+	h1 {color:red;}
+	h2 {color:blue;}
+	</style>
+</head>
+
+<body>
+	<h1>Training Enquiry Form</h1>
+
+	<p>If you are interested in attending a training course or would like further information about the training we offer,
+	please complete the following form:</p>
+
+	<div>
+	<form action = "mailto:maxijewell@gmail.com" method="post" enctype="text/plain">
+		<h2>Name</h2><input type="text" placeholder="name" required>
+		<br>
+		<br>
+		<h2>Email Address</h2><input type="text" placeholder="Email address" required>
+		<br>
+		<br>
+		<h2>Phone number (optional)</h2><input type="text">
+		<br>
+		<h2>Course you are interested in (if any):</h2>
+		<p>Course dates can be found <a href="#">here</a>
+		<br>
+		<label for="April">
+      
+			<input id="April" type="checkbox" name="courses">April
+
+		</label>
+    
+		<label for="MayJune">
+     
+			<input id="MayJune" type="checkbox" name="courses">May/June
+
+		</label>
+		<label for="JuneJuly">
+      
+			<input id="JuneJuly" type="checkbox" name="courses">June/July
+		</label>
+    
+		<label for="JulyAug">
+
+			<input id="JulyAug" type="checkbox" name="courses">July/August
+		</label>
+		<label for="SeptOct">
+
+			<input id="SeptOct" type="checkbox" name="courses">September/October
+		</label>
+		<h2>Enquiry</h2><input type="text">
+		<br>
+		<button type="submit">Submit Form</button>
+	</form>
+	</div>
+
+</body>
+
+</html>
